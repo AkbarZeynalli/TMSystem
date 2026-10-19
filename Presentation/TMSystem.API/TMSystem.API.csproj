@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Middlewares\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\TMSystem.Application\TMSystem.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\TMSystem.Infrastructure\TMSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\TMSystem.Persistence\TMSystem.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

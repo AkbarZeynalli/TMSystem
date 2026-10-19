@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Common\Behaviors\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Models\" />
+    <Folder Include="Common\Mappings\" />
+    <Folder Include="Features\Comments\" />
+    <Folder Include="Features\Auth\" />
+    <Folder Include="Features\Tasks\Commands\CreateTask\" />
+    <Folder Include="Features\Tasks\Commands\DeleteTask\" />
+    <Folder Include="Features\Tasks\Commands\AssignTask\" />
+    <Folder Include="Features\Tasks\Commands\ChangeTaskStatus\" />
+    <Folder Include="Features\Tasks\Commands\UpdateTask\" />
+    <Folder Include="Features\Tasks\DTOs\" />
+    <Folder Include="Features\Tasks\Queries\GetTaskById\" />
+    <Folder Include="Features\Tasks\Queries\GetTasksByProject\" />
+    <Folder Include="Features\Users\" />
+    <Folder Include="Features\Projects\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TMSystem.Domain\TMSystem.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

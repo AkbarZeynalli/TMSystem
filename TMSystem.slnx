@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Core/TMSystem.Application/TMSystem.Application.csproj" Id="2fdd5d30-8d47-40fb-be8a-c39a9905ff91" />
+    <Project Path="Core/TMSystem.Domain/TMSystem.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure/TMSystem.Infrastructure/TMSystem.Infrastructure.csproj" />
+    <Project Path="Infrastructure/TMSystem.Persistence/TMSystem.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="Presentation/TMSystem.API/TMSystem.API.csproj" />
+  </Folder>
+</Solution>
